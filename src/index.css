@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.img{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../src/assets/fondoHorizontal.jpg);
+  /* background-attachment: fixed;  */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: bottom right;
+}
+
+.fondoBlack{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.colorverde{
+  color: #679A8E;
+}
+
+.f10{
+  font-size: 1rem;
+}
+
+.f15{
+  font-size: 1.5rem;
+}
+
+.f20{
+  font-size: 2rem;
+}
+
+.f25{
+  font-size: 2.5rem;
+}
+
+.f30{
+  font-size: 3rem;
+}
+
+.f35{
+  font-size: 3.5rem;
+}
+
+.f40{
+  font-size: 4rem;
+}
+
+.f50{
+  font-size: 5rem;
+}
+
+.f55{
+  font-size: 5.5rem;
+}
+
+.f60{
+  font-size: 6rem;
+}
+
+.f70{
+  font-size: 7rem;
+}
+
+
+.fregular{
+ font-weight: 400;
+} 
+
+.fbold{
+  font-weight: bolder;
+} 
+
+.fblack{
+  font-weight: 800;
+}
+
+
+
+
+@media (max-width: 2560px) {
+  *{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1920px) {
+  *{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1366px) {
+  *{
+    font-size: 12px;
+   }
+}
+
+@media (max-width: 1024px) {
+  *{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  *{
+    font-size: 8px;
+  }
+  
+  .img{
+    background-image: url(../src/assets/fondoVertical.jpg);
+    background-size: cover;
+  }
+}   
+
+@media (max-width: 480px) {
+  *{
+    font-size: 8px;
+   }
+}   
+

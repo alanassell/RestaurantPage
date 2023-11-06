@@ -1,0 +1,71 @@
+.sectionMenu{
+    width: 100%;
+    height: 100%;
+    padding: 4rem 5rem 0 5rem ;
+    position: relative;
+}
+
+.sectionMenu img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+    width: 10rem;
+    max-width: 200px;
+}
+
+.accordion{
+    width: 70%;
+    margin: 15%;
+}
+
+.contetProduct{
+    justify-content: space-between;
+}
+
+.bgTrans{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.accordion-button{
+    background-color: transparent !important;
+    color: white !important;
+    border-bottom: 0.2rem solid white !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/butonabrir.png) !important;
+    background-size: contain !important;
+    background-position: 50% !important;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.accordion-button::after {
+    background-image: url(../../assets/butonabrir.png) !important;
+    background-size: contain !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    background-position: 50% !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+
+@media (max-width: 768px) {
+    .accordion{
+        margin: 0;
+        margin-top: 10rem !important;
+        width: 100%;
+    }
+
+    .sectionMenu img{
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin: 3rem 0%;
+    }
+
+}   
